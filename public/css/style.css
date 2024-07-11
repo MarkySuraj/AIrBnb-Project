@@ -1,6 +1,13 @@
 body {
     background-color: #beef9e !important;
     font-family: "Plus Jakarta Sans", sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    flex:1;
 }
 
 /* NavBar */
