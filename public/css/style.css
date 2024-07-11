@@ -1,11 +1,12 @@
-/* body {
-    background-color: pink;
-} */
+body {
+    background-color: #beef9e !important;
+    font-family: "Plus Jakarta Sans", sans-serif !important;
+}
 
 /* NavBar */
 .navbar {
   height: 5rem;
-  background-color: #beef9e;
+  background-color:#a6c36f;
 }
 
 .fa-compass {
@@ -18,6 +19,7 @@
 }
 
 /* Footer */
+
 .f-info-links a {
   text-decoration: none;
   color: #222222;
@@ -44,9 +46,45 @@
 .f-info {
   text-align: center;
   height: 6rem;
-  background-color: #a6c36f;
+  background-color: #828C51;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: space-evenly;
+}
+
+/* Cards */
+
+.card{
+    border:none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top {
+    border-radius: 0.6rem !important;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+    background-color: #648D7C;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none !important;
+}
+
+/* Card(Overlay) Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
 }
