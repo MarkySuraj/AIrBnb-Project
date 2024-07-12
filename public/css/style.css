@@ -95,3 +95,14 @@ body {
     opacity: 0.2;
     background-color: white;
 }
+
+/* Show Page */
+
+.show-img{
+    height: 30vh;   
+}
+
+.btns{
+    background-color: red !important;
+    color:white !important;
+}
