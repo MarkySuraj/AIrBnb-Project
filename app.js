@@ -87,7 +87,7 @@ app.get(
   "/listings/:id",
   wrapAsync(async (req, res) => {
     let { id } = req.params;
-    const listing = await Listing.findById(id);
+    const listing = await Listing.findById(id).populate("reviews");
     res.render("listings/show.ejs", { listing });
   })
 );
@@ -142,6 +142,7 @@ app.post(
   "/listings/:id/reviews",
   validateReview,
   wrapAsync(async (req, res) => {
+    // console.log(req.body);
     let listing = await Listing.findById(req.params.id);
     let newReview = new Review(req.body.review);
 

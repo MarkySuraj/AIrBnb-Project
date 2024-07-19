@@ -62,20 +62,24 @@ body {
 
 /* Cards */
 
-.card{
-    border:none !important;
+.listing-card{
+    border: 1px solid blue !important;
+    border-radius: 0.6rem !important;
     margin-bottom: 2rem;
 }
 
+
 .card-img-top {
-    border-radius: 0.6rem !important;
-    width: 100% !important;
-    object-fit: cover !important;
+  border-radius: 0.6rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
 }
 
+
 .card-body{
-    padding: 0 !important;
+    padding: 2px !important;
     background-color: #648D7C;
+    border-radius: 0.6rem !important;
 }
 
 .card-text p{
@@ -105,4 +109,10 @@ body {
 .btns{
     background-color: red !important;
     color:white !important;
+}
+
+.show-card{
+  background-color: #a6c36f;
+  border: 1px solid blue;
+  border-radius: 0.6rem !important;
 }
